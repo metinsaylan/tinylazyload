@@ -1,4 +1,95 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+<title>TinyLazyLoad by metinsaylan</title>
 
+<style>
+  /* 
+  
+    Note: 
+      CSS is not required, for demo only
+  
+  */
+  
+  html,
+  body {
+    height: 100%;
+    background: #eee;
+  }
+  
+  body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  body, p {
+    font-family: Segoe UI, Arial,Helvetica,sans-serif;
+    font-size: 18px;
+  }
+  
+  header {
+    background: #ffeb3b;
+    padding: 2rem;
+    margin: 3rem;
+  }
+  
+  header h1 {
+    line-height: 1;
+    margin: 0;
+  }
+  
+  section {
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 10%), 2px 4px 7px rgb(0 0 0 / 10%),
+      -2px 4px 7px rgb(0 0 0 / 10%);
+    border: 0;
+    border-radius: 10px;
+    margin: 3rem;
+  }
+  
+  section img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  section iframe {
+    width: 100%;
+  }
+  
+  section p, section pre {
+    margin: 2rem;
+  }
+  
+  pre {
+    background: #eee;
+    padding: 1rem;
+    overflow: auto;
+  }
+  
+  .thmb {
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-color: #eee;
+  }
+  
+  .lazy {
+    background-color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    margin: 3rem;
+  }
+  
+  </style>
+
+</head>
+<body>
 
 <header>
   <h1>TinyLazyLoad</h1>
@@ -44,85 +135,6 @@
 
 <script src="tinylazyload.js"></script>
 
-<style>
-/* 
-
-  Note: 
-    CSS is not required, for demo only
-
-*/
-
-html,
-body {
-  height: 100%;
-  background: #eee;
-}
-
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-body, p {
-  font-family: Segoe UI, Arial,Helvetica,sans-serif;
-  font-size: 18px;
-}
-
-header {
-  background: #ffeb3b;
-  padding: 2rem;
-  margin: 3rem;
-}
-
-header h1 {
-  line-height: 1;
-  margin: 0;
-}
-
-section {
-  height: 100%;
-  background: #fff;
-  box-shadow: 0 4px 15px rgb(0 0 0 / 10%), 2px 4px 7px rgb(0 0 0 / 10%),
-    -2px 4px 7px rgb(0 0 0 / 10%);
-  border: 0;
-  border-radius: 10px;
-  margin: 3rem;
-}
-
-section img {
-  max-width: 100%;
-  object-fit: cover;
-}
-
-section iframe {
-  width: 100%;
-}
-
-section p, section pre {
-  margin: 2rem;
-}
-
-pre {
-  background: #eee;
-  padding: 1rem;
-  overflow: auto;
-}
-
-.thmb {
-  min-height: 300px;
-  background-position: center;
-  background-size: cover;
-  background-color: #eee;
-}
-
-.lazy {
-  background-color: #333;
-}
-
-footer {
-  text-align: center;
-  margin: 3rem;
-}
-
-</style>
+</body>
+</html>
 
